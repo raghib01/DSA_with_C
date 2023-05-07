@@ -3,10 +3,10 @@ int main()
 {
     int i, j, n, count;
 
-    n = 3;
+    scanf("%d", &n);
     count = 0;
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n; i++) //
     {
         for (j = 0; j < n; j++)
         {
@@ -17,3 +17,7 @@ int main()
 
     return 0;
 }
+
+/*
+ - its a nested loop.
+*/
